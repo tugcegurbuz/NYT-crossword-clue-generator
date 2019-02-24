@@ -20,7 +20,7 @@ class DataExtractor:
 
         if (browser == 'Firefox'):
             print('Running Geckodriver')
-            self.driver = webdriver.Firefox(executable_path='/home/arash/cMod/drivers/linux64/geckodriver')
+            self.driver = webdriver.Firefox(executable_path='/Users/heerdemoglu/Documents/GitHub/cMod/drivers/macos/geckodriver')
         else:
             self.driver = webdriver.Chrome()
         self.grid = [[{},{},{},{},{}],[{},{},{},{},{}],[{},{},{},{},{}],[{},{},{},{},{}],[{},{},{},{},{}]]
