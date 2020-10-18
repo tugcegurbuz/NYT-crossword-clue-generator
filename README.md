@@ -1,2 +1,2 @@
 # cMod
-NY mini crossword clue generation
+New York Times mini crossword clue generation
